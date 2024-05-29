@@ -7,8 +7,8 @@ import logging
 app = FastAPI()
 
 try:
-    model = joblib.load('Models/knn_model.joblib')
-    scaler = joblib.load('Models/scaler.joblib')
+    model = joblib.load('knn_model.joblib')
+    scaler = joblib.load('scaler.joblib')
 except Exception as e:
     logging.error(f"Error loading model or scaler: {e}")
     raise
