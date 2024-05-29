@@ -1,1 +1,14 @@
 fastapi[all]
+spacy==3.7.4
+weasel==0.3.4
+typer>=0.3.0,<0.10.0
+requests
+fastapi
+uvicorn
+joblib
+pydantic
+scikit-learn
+pandas
+plotly.express
+matplotlib
+seaborn
